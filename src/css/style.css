@@ -85,7 +85,7 @@ body {
     width: 100%;
     height: 100%;
     right: 100%;
-    background: #fff url("../img/bg-1.gif") repeat left;
+    background: #fff url("../img/holo1.png") repeat left;
     transition: all .6s;
     animation: scroll 25s ease-in-out infinite;
 }
@@ -108,8 +108,8 @@ body {
     box-shadow: inset -1px 0 var(--flavour);
 }
 
-#panels ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
-#panels ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
+#panels ul:nth-child(2) { background: #fff url("../img/holo2.png") repeat center left fixed; }
+#panels ul:nth-child(3) { background: #fff url("../img/holo3.png") repeat center left fixed; }
 
 #panels ul[active] {
     right: 0;
@@ -159,8 +159,8 @@ body {
     left: calc(15% - 42.5px);
     bottom: 0;
     top: 0;
-    background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%));
-    color: rgb(255 255 255 / 65%);
+    background: linear-gradient(to top, #ffffff, rgba(255, 255, 255));
+    color: rgba(0, 0, 0);
     letter-spacing: 1px;
     font: 100 30px 'Nunito', sans-serif;
     text-align: center;
